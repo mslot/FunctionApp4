@@ -13,5 +13,4 @@ namespace FunctionApp4
             builder.Services.AddTransient<ILogic, Logic>();
         }
     }
-
 }
