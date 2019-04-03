@@ -32,7 +32,7 @@ Two things to notice here:
 1. I have included the usings - SO YOU CAN SEE WHAT MY INTENTIONS ARE. Always include those in examples
 2. the [assembly:] tag on namespace
 
-There you go. Remove the statics from your functions, and inject the interfaces in your constructor ... BOOOOOM!!!
+There you go. Remove the statics from your functions, and inject the interfaces in your constructor ... AND BOOOOOM!!!
 
 # Run multiple Azure functions at once
 I often create multiple AzureFunctions, that I want to run so i can a) test the flow or 2) actually run the entire flow at once. The Functions is spread out in multiple repositories, and it is cumbersome to open each solution just to test each step (I tend to use storage queues to link the functions together). I have recently begun to include a simple scripts folder with one script in it, RunLocally.ps1 that contains:
